@@ -29,6 +29,10 @@ Escala de Cores do Projeto. Escala de cores monocromática.
     --font-android: 'android', 'cursive';
 }
 
+* { /* Desta forma é realizada uma configuração global que vale para todos os elementos do site. */
+    margin: 0px;
+    padding: 0px;
+}
 
 body {
     background-color: var(--cor0); /* Posso digitar var, teclar enter e dentro dos parênteres vão aparecer opções de variáveis previamente declaradas. */
@@ -54,6 +58,9 @@ nav {
 
 main {
     background-color: white;
+    min-width: 400px;
+    max-width: 800px;
+    
 }
 
 main > article > h1 {
