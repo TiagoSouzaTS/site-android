@@ -136,7 +136,7 @@ main > article > p {
 
 }
 
-strong {
+main strong {
     color: var(--cor5);
 }
 
