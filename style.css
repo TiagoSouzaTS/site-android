@@ -113,15 +113,54 @@ main h2 {
     padding: 0px;
 }
 
-main p {
+main > article > p {
+    font-family: var(--fonte-padrao);
     text-align: justify;
     text-indent: 40px;
-    font-size: 1.2em;
     line-height: 1.8em;
     margin: 10px;
 
 }
 
+aside {
+    background-color: var(--cor1);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 15px 15px 15px 15px;
+    padding-bottom: 20px;
+}
+
+aside > h3 {
+    background-color: var(--cor4);
+    color: white;
+    font-size: 1.3em;
+    font-family: var(--fonte-padrao);
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+aside > p {
+    font-family: var(--fonte-padrao);
+    text-align: justify;
+    text-indent: 40px;
+    margin: 10px;
+    padding: 5px;
+    line-height: 1.8em;
+    
+}
+
+aside > ul {
+    list-style-position: inside;
+    padding: 15px;
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+}
+
+aside li {
+    font-family: var(--fonte-padrao);
+}
 
 footer {
     background-color: var(--cor5);
