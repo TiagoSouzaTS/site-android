@@ -144,6 +144,16 @@ main strong {
     color: var(--cor5);
 }
 
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
 #video {
     background-color: var(--cor5);
 }
