@@ -50,7 +50,7 @@ body {
 
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
-    min-height: 200px;
+    min-height: 150px;
     color: white;
     text-align: center;
   
@@ -80,6 +80,7 @@ nav {
     background-color: var(--cor5);
     box-shadow: 3px 8px 11px 0px rgb(0 0 0 / 34%);
     padding: 10px;
+
 
 }
 
